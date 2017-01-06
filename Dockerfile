@@ -1,7 +1,7 @@
 FROM httpd
 MAINTAINER Micah J Cowan "micah@addictivecode.org"
 
-ENV SNAP_ZIP https://github.com/jmoenig/Snap--Build-Your-Own-Blocks/archive/4.0.9.2.zip
+ENV SNAP_ZIP https://github.com/jmoenig/Snap--Build-Your-Own-Blocks/archive/master.zip
 
 RUN set -x && \
     cd /usr/local/apache2/htdocs && \
